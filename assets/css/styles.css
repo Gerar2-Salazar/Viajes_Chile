@@ -5,3 +5,31 @@
     padding: 15px;
 
 }
+.title {
+    text-align: center;
+    color: white;
+}
+.col {
+    width: 300px;
+    text-align: center;
+    
+    ;
+}
+.card-logo {
+    background-color:#26b4db;
+    color: white;
+
+}
+.card-body {
+    background-color:#26b4db;
+    color: white;
+
+}
+.card-img-top {
+    height: 180px 
+}
+
+.btn {
+    background-color:#26b4db;
+    color: white;
+}
