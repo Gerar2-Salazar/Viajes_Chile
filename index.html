@@ -10,10 +10,11 @@
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Viajes Chile</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg  text-white fixed-top px-5">
+<body style="background-color:black;">
+  <!--navbar-->
+    <nav class="navbar navbar-expand-lg text-white fixed-top sticky-top px-5">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
+          <a class="navbar-brand " href="#"></a>
             <img src="assets/img/viajes.svg" width="30px">Viajes Chile
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,6 +38,7 @@
           </div>
         </div>
     </nav>
+
     <header>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
@@ -62,38 +64,33 @@
     </header>
 
    <!--cards1-->
-    <h5 class="title">¿QUIENES SOMOS?</h5>
-    <div class="row row-cols-1 row-cols-md-2 g-4 p-3 px-4 justify-content-center ">
+    <h5 class="title p-3">¿QUIENES SOMOS?</h5>
+    <div class="row row-cols-1 row-cols-md-2 g-4 p-3 px-4 justify-content-center">
       <div class="col">
-        <div class="card h-100">
-          <div class="card-logo"><i class="fas fa-plane"></i>
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="card h-100" >
+          <div class="card-logo"><i class="fas fa-plane"></i></div>
+          <div><p class="card-text ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
-          <div class="card-logo"><i class="fas fa-mountain"></i>
-            <h5 class="card-title">Card title</h5>
-          <p class="card-text ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-          <img src="" class="card-logo-top" alt="...">
+          <div><p class="card-text ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
+          <div class="mountain"><i class="fas fa-mountain"></i></div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="" class="card-logo-top" alt="...">
-          <div class="card-logo"><i class="fas fa-route"></i>
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <div class="card-logo"><i class="fas fa-route"></i></div>
+          <div><p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
           </div>
         </div>
       </div>
     </div>
 
     <!--cards2-->
-    <h5 class="title">DESTACADOS</h5>
+    <h5 class="title p-3">DESTACADOS</h5>
     <div class="row row-cols-1 row-cols-md-2 g-4 p-3 px-4 justify-content-center ">
         <div class="col">
           <div class="card h-100">
@@ -131,27 +128,29 @@
             </div>
           </div>
         </div>
-      </div>
+    </div>
     
-      <h5 class="title">CONTACTO</h5>
+    <div class="formulario p-3
+    ">
+    <h5 class="Contacto text-white text-center">CONTACTO</h5>
       <div class="mb-3 px-5">
-        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <label for="exampleFormControlInput1" class="form-label text-white">Nombre</label>
         <input type="email" class="form-control" id="exampleFormControlInput1"> 
       </div>
       <div class="mb-3 px-5">
-        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+        <label for="exampleFormControlInput1" class="form-label text-white">Asunto</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" >
       </div>
       <div class="mb-3 px-5">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button type="submit" class="btn">Enviar</button>
-      
-      <footer class="footer text-center text-white py-4" style="background-color:#26b4db;">
-        <p>Ricomida <img src="assets/img/viajes.svg" width="30px"></p>
-       
+      <div class="button mb-3 px-5"><button type="submit" class="btn">Enviar</button></div>
+    </div>
 
-      </footer>  
+    <!--footer-->
+    <footer class="footer text-center text-white py-4" style="background-color:#26b4db;">
+        <p>VIAJES CHILE <img src="assets/img/viajes.svg" width="30px"></p>
+    </footer>  
 </body>
 </html>
