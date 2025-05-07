@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Viajes Chile</title>
+     <!-- 4. Nuestro script -->
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body style="background-color:black;">
   <!--navbar-->
@@ -90,7 +92,7 @@
     </div>
 
     <!--cards2-->
-    <h5 class="title p-3">DESTACADOS</h5>
+    <h5 id="Destacados" class="title time-text fw-bold  p-3">DESTACADOS</h5>
     <div class="row row-cols-1 row-cols-md-2 g-4 p-3 px-4 justify-content-center ">
         <div class="col">
           <div class="card h-100">
@@ -132,7 +134,7 @@
     
     <div class="formulario p-3
     ">
-    <h5 class="Contacto text-white text-center">CONTACTO</h5>
+    <h5 i="contacto" class="time-text text-white text-center">CONTACTO</h5>
       <div class="mb-3 px-5">
         <label for="exampleFormControlInput1" class="form-label text-white">Nombre</label>
         <input type="email" class="form-control" id="exampleFormControlInput1"> 
@@ -145,7 +147,7 @@
         <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <div class="button mb-3 px-5"><button type="submit" class="btn">Enviar</button></div>
+      <div class="button mb-3 px-5"><button type="submit" class="btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Presione para enviar correo">Enviar</button></div>
     </div>
 
     <!--footer-->
