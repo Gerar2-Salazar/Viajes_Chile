@@ -2,7 +2,6 @@ const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
 
-
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
@@ -15,6 +14,7 @@ $(document).ready(function () {
     alert("Correo enviado correctamente") 
 })
 
+
 //Cambiar color//
 $(document).ready(function() {
   $('#destacados').on('dblclick', function() {
@@ -25,6 +25,8 @@ $(document).ready(function() {
     $(this).css('color', 'cyan'); // Cambia el color a rojo
   });
 });
+
+
 
 //Ocultar información//
 

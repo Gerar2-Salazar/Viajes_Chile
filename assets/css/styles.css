@@ -1,22 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Lobster&family=National+Park:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* ajustes body */
+#body {
+    font-family: "Raleway", sans-serif;
+}
+
+#a {
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 100px;
+}
 
 .title {
+    font-family: "Raleway", sans-serif;
     text-align: center;
     color: white;
 }
 .col {
+    font-family: "Raleway", sans-serif;
     width: 300px;
     text-align: center;
     
     ;
 }
 .card-logo {
+    font-family: "Raleway", sans-serif;
     background-color:#26b4db;
     color: white; 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;  
 }
 .mountain {
+    font-family: "Raleway", sans-serif;
     background-color:#26b4db;
     color: white;   
     border-bottom-left-radius: 5px;
@@ -24,6 +40,7 @@
 }
 
 .card-body {
+    font-family: "Raleway", sans-serif;
     background-color:#26b4db;
     color: white;
     border-bottom-left-radius: 5px;
@@ -34,15 +51,25 @@
 }
 
 .btn {
+    font-family: "Raleway", sans-serif;
     background-color:#26b4db;
     color: white;
 }
 
-.footer {
-    color: white;
-}
 
+/* Footer */   
+
+.icon {
+    padding: 3px; 
+    width: 400px;
+    color: white;
+  }
+
+
+
+/* ajuste de posición cards */
 @media (max-width: 768px) {
     .card-text {
       display: none;
     }
+}
